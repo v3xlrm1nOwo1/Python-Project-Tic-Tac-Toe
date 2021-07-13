@@ -128,8 +128,8 @@ def drawXO(row,col):
         screen.blit(o_img,(posy,posx))
         XO= 'x'
     pg.display.update()
-    #print(posx,posy)
-    #print(TTT)
+    print(f"posx: {posx},posy: {posy}")
+    print(f"TTT: {TTT}")
    
     
 
